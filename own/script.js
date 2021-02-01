@@ -12,6 +12,7 @@ $('#get-btn').click(function(e){
                 alert('No photos available for this date');
                 return;
             }
+            $('#img-container img').remove();
             for(let i of data.photos){
 
             $('#img-container').append(
