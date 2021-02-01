@@ -17,8 +17,8 @@ $('#get-btn').click(function(e){
             $('#img-container').append(
                 $('<img>',{
                     src:i.img_src,
-                    width:'200px',
-                    height:'200px'
+                    width:'500px',
+                    height:'500px'
                 })
               
             );
