@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+#header{
+    background-color: lightgray;
+    text-align: center;
+}
+
+#header p{
+    display: inline-block;
+    width: 50%;
+}
+#get-btn{
+    width: 120px;
+    height:40px;
+    border-radius: 5px;
+    outline: none;
+}
+
+#img-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
